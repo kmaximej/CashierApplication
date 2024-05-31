@@ -32,6 +32,7 @@ namespace CashierApplication
             labelTotal.Text = TotalPrice.ToString();
         }
 
+
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
             string item = textBoxItem.Text;
